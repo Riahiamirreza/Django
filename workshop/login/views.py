@@ -6,8 +6,6 @@ from django.contrib.auth import authenticate, login
 from login.serializers import UserloginSerializer 
 from rest_framework import serializers                                                   
 
-
-                                                                                            
                             
 def login2(request):                      
     try:                  
@@ -47,3 +45,4 @@ def login2(request):
             },status=400
         )
 
+# after learning git
